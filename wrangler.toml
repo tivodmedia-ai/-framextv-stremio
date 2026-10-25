@@ -1,0 +1,9 @@
+name = "framextv-stremio"
+main = "src/index.ts"
+compatibility_date = "2026-10-01"
+workers_dev = true
+
+[vars]
+ADDON_NAME = "FrameXTV Community"
+# Optional: URL of a JSON catalog you control and are authorized to redistribute.
+# Set using Cloudflare dashboard or wrangler secret for private values.
